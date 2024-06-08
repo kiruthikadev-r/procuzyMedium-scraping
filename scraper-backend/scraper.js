@@ -30,6 +30,7 @@ async function scrapeMedium(topic) {
                 url: urlElement
             });
         });
+        
         return results.slice(0, 5);
     });
 
