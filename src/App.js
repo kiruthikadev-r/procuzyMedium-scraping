@@ -8,7 +8,6 @@ function App() {
     const [articles, setArticles] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
-    
 
     const handleScrape = async () => {
         if (!topic) {
